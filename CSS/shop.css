@@ -1,0 +1,131 @@
+body {
+    padding: 0;
+    margin: 0;
+    /*background: url('../img/beansonsack.jpg') no-repeat center center fixed;*/
+    background: #EDEAE5;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+/*Top Navigation bar*/
+
+.navbar {
+    background-color: #000000;
+}
+
+.nav-link {
+    color: #fff;
+    cursor: pointer;
+}
+
+#habaribrand {
+    color: orange;
+
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: gray;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.nav-button {
+    margin: 0px 3px;
+}
+
+/*Country Nav*/
+.country-nav {
+    color: gray;
+}
+.country-nav:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.text-info a:active {
+    color: orange;
+}
+
+/* Intro Box */
+.intro-box {
+    height: 200px;
+}
+
+/* Shop items */
+
+.Beans img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+    height: 338px;
+    max-width: 100%;
+
+}
+
+.Special {
+    -webkit-filter: sepia(1);
+    filter: sepia(1);
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*--- Footer ---*/
+
+.page-footer {
+    background-color: #1f1815;
+    color: #bf955a;
+    padding: 60px 0 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.footer-copyright {
+    color: #bf955a;
+    padding: 40px 0;
+}
+
+.socialicon .fa {
+    font-size: 30px;
+}
+.socialicon .fa:hover {
+    background: #000;
+    color: red;
+    
+}
+
+/* Media Queries */
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+
+    .description h1 {
+        font-size: 2em;
+    }
+
+    .description p {
+        font-size: 1.2rem;
+    }
+
+    .features {
+        margin: 0;
+    }
+}

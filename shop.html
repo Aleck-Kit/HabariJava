@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Shop | HabariJava!</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!-- font awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet" />
+  <!-- Css -->
+  <link rel="stylesheet" type="text/css" href="css/shop.css" />
+
+  <!-- JQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+</head>
+
+<body>
+  <!-- Top Navbar -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#"><span id="habaribrand">HabariJava!</span></a>
+
+    <!-- Cart and Clear Cart buttons -->
+
+    <button type="button" class="btn btn-primary nav-button" data-toggle="modal" data-target="#exampleModal">
+      Cart (<span class="count-cart"></span>)
+    </button>
+
+    <button type="button" class="clear-cart btn btn-danger nav-button" data-toggle="modal" data-target="#exampleModal">
+      Clear Cart
+    </button>
+    <!-- End of Cart and Clear Cart buttons -->
+
+    <!-- Navbar links -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Shop<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="checkout.html">Checkout</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Country Nav -->
+  <div class="nav-scroller pb-1 mb-0">
+    <nav class="nav d-flex bg-dark justify-content-between">
+      <a class="p-2  country-nav" href="#">ETHIOPIA</a>
+      <a class="p-2  country-nav" href="#">KENYA</a>
+      <a class="p-2  country-nav" href="#">UGANDA</a>
+      <a class="p-2  country-nav" href="#">DRC</a>
+      <a class="p-2  country-nav" href="#">TANZANIA</a>
+      <a class="p-2  country-nav" href="#">ANGOLA</a>
+      <a class="p-2  country-nav" href="#">MADAGASCAR</a>
+      <a class="p-2  country-nav" href="#">CAMEROON</a>
+      <a class="p-2  country-nav" href="#">GHANA</a>
+      <a class="p-2  country-nav" href="#">COTE D'IVOIRE</a>
+    </nav>
+  </div>
+  <!-- Header -->
+  <div class="container bg-dark text-warning">
+    <div class="row align-items-center text-center mt-0 intro-box">
+      <div class="col">
+        <h1>Shop the Continent</h1>
+        <p class="text-muted">Beans | Equipment | Accessories</p>
+      </div>
+    </div>
+  </div>
+  <hr width="400px" />
+  <!-- Beans Section -->
+  <div class="container">
+    <div class="row align-items-center text-center my-5">
+      <div class="col">
+        <h2>Beans Galore</h2>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <hr width="400px" />
+  <div class="container Beans">
+    <div class="row align-items-center text-center">
+      <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+        <!-- image trigger modal -->
+        <a href="#myModal" data-toggle="modal"><img src="img/Koffee Kult Kenya.jpg" alt="Koffee Kult"
+            class="img-fluid img-thumbnail" /></a>
+
+        <p>
+          Koffee Kult Gourmet Coffee - Kenya <br />
+          $18
+        </p>
+        <!-- Add to cart button-->
+        <button type="button" class="add-to-cart btn btn-primary" data-name="Koffee Kult Gourmet Coffee - Kenya"
+          data-price="18" data-toggle="modal" data-target="#exampleModal">
+          Add to cart
+        </button>
+        <!-- End of Add to cart button-->
+
+        <!-- Modal -->
+        <div tabindex="-1" class="modal fade" id="myModal" role="dialog" aria-hidden="true"
+          aria-labelledby="myModalLabel">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">KENYAN COFFEE</h4>
+              </div>
+              <div class="modal-body">
+                Koffee Kult Dark Roast Coffee Beans - Highest Quality Gourmet
+                - Whole Bean Coffee - Fresh Roasted Coffee Beans, 32oz
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-info btn-lg" type="button" data-dismiss="modal">
+                  OK, thanks!
+                </button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+      </div>
+
+      <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+        <!-- image trigger modal -->
+        <a href="#myModal2" data-toggle="modal"><img src="img/Peaberry Tanzania.jpg" alt="Peaberry"
+            class="img-fluid img-thumbnail" /></a>
+
+        <p>
+          Peaberry Coffee - Tanzania <br />
+          $18
+        </p>
+        <!-- Add to cart button-->
+        <button type="button" class="add-to-cart btn btn-primary" data-name="Peaberry Coffee - Tanzania" data-price="18"
+          data-toggle="modal" data-target="#exampleModal">
+          Add to cart
+        </button>
+        <!-- End of Add to cart button-->
+        <!-- Modal -->
+        <div tabindex="-1" class="modal fade" id="myModal2" role="dialog" aria-hidden="true"
+          aria-labelledby="myModalLabel">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">
+                  TANZANIAN COFFEE
+                </h4>
+              </div>
+              <div class="modal-body">
+                Peaberry Coffee - 12 oz of a unique roast with a smooth
+                buttery body and a sweet delicate finish
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-info btn-lg" type="button" data-dismiss="modal">
+                  OK, thanks!
+                </button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+      </div>
+
+      <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+        <!-- image trigger modal -->
+        <a href="#myModal3" data-toggle="modal"><img src="img/Burundi.jpg" alt="BKirimiro"
+            class="img-fluid img-thumbnail" /></a>
+
+        <p>
+          Butemba Kirimiro - Burundi <br />
+          $16
+        </p>
+        <!-- Add to cart button-->
+
+        <button type="button" class="add-to-cart btn btn-primary" data-name="Butemba Kirimiro - Burundi" data-price="16"
+          data-toggle="modal" data-target="#exampleModal">
+          Add to cart
+        </button>
+
+        <!-- End of Add to cart button-->
+
+        <!-- Modal -->
+        <div tabindex="-1" class="modal fade" id="myModal3" role="dialog" aria-hidden="true"
+          aria-labelledby="myModalLabel">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">
+                  BURUNDIAN COFFEE
+                </h4>
+              </div>
+              <div class="modal-body">
+                Butemba Kirimiro Coffee - Lightly roasted with heavy mouthfeel
+                flavors of lemon black tea, delicate hints of spiced clove and
+                a sweet nutty finish - 1lB to 5lB
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-info btn-lg" type="button" data-dismiss="modal">
+                  OK, thanks!
+                </button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+      </div>
+    </div>
+  </div>
+  <hr width="400px" />
+  <div class="container Beans">
+    <div class="row align-items-center text-center">
+      <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+        <!-- image trigger modal -->
+        <a href="#myModal4" data-toggle="modal"><img src="img/Good African Coffee Uganda.jpg" alt="GAfricanCoffee"
+            class="img-fluid img-thumbnail" /></a>
+
+        <p>
+          Good African Coffee - Uganda <br />
+          $18
+        </p>
+        <!-- Add to cart button-->
+
+        <button type="button" class="add-to-cart btn btn-primary" data-name="Good African Coffee - Uganda"
+          data-price="18" data-toggle="modal" data-target="#exampleModal">
+          Add to cart
+        </button>
+        <!-- End of Add to cart button-->
+        <!-- Modal -->
+        <div tabindex="-1" class="modal fade" id="myModal4" role="dialog" aria-hidden="true"
+          aria-labelledby="myModalLabel">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">UGANDAN COFFEE</h4>
+              </div>
+              <div class="modal-body">
+                Good African Coffee - a clean, smooth and balanced cup that
+                offers sweet and bright flavors of green apple, lemon and
+                cocoa, along with a creamy chocolate body and subtle malic
+                acidity
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-info btn-lg" type="button" data-dismiss="modal">
+                  OK, thanks!
+                </button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+        <!-- image trigger modal -->
+        <a href="#myModal5" data-toggle="modal"><img src="img/freres-du-noun-cameroon.jpg" alt="FduNoun"
+            class="img-fluid img-thumbnail" /></a>
+
+        <p>
+          Frères du Noun - Cameroon <br />
+          $17
+        </p>
+        <!-- Add to cart button-->
+
+        <button type="button" class="add-to-cart btn btn-primary" data-name="Frères du Noun - Cameroon" data-price="17"
+          data-toggle="modal" data-target="#exampleModal">
+          Add to cart
+        </button>
+        <!-- End of Add to cart button-->
+        <!-- Modal -->
+        <div tabindex="-1" class="modal fade" id="myModal5" role="dialog" aria-hidden="true"
+          aria-labelledby="myModalLabel">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">
+                  CAMEROONIAN COFFEE
+                </h4>
+              </div>
+              <div class="modal-body">
+                Frères du Noun - Medium roasted and full bodied with an
+                earthy, buttery, milk chocolate palate and aroma. - 1lB
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-info btn-lg" type="button" data-dismiss="modal">
+                  OK, thanks!
+                </button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+        <!-- image trigger modal -->
+        <a href="#myModal6" data-toggle="modal"><img src="img/AA Coffee Kenya.jpg" alt="AACoffee"
+            class="img-fluid img-thumbnail" /></a>
+
+        <p>
+          AA Medium Roast Coffee - Kenya <br />
+          $16
+        </p>
+        <!-- Add to cart button-->
+
+        <button type="button" class="add-to-cart btn btn-primary" data-name="AA Medium Roast Coffee - Kenya"
+          data-price="16" data-toggle="modal" data-target="#exampleModal">
+          Add to cart
+        </button>
+        <!-- End of Add to cart button-->
+        <!-- Modal -->
+        <div tabindex="-1" class="modal fade" id="myModal6" role="dialog" aria-hidden="true"
+          aria-labelledby="myModalLabel">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">KENYAN COFFEE</h4>
+              </div>
+              <div class="modal-body">
+                AA Medium Roast Coffee - Fragrant, sharp, and full bodied.
+                This coffee is slightly sweet with a trace of chocolate and
+                fruit flavors, excellent balance of acidity and body - 10 -
+                15lB
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-info btn-lg" type="button" data-dismiss="modal">
+                  OK, thanks!
+                </button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+      </div>
+      <div>
+        <a href="#" class="text-danger">More of the continent's delectable coffee brands...></a>
+      </div>
+    </div>
+  </div>
+  <hr width="400px" />
+  <!-- Equipment Section -->
+  <div class="container-fluid">
+    <div class="row align-items-center text-center my-5">
+      <div class="col">
+        <h2>Fully Equipped to Roast</h2>
+      </div>
+    </div>
+  </div>
+  <hr width="400px" />
+  <div class="container Beans Special">
+    <div class="row align-items-center text-center">
+      <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+        <img src="img/Automatic Pour Over Coffee Machine.jpeg" alt="PourOver" class="img-fluid img-thumbnail" />
+        <p>
+          Automatic Pour-Over Coffee Machine <br />
+          $220
+        </p>
+        <!-- Add to cart button-->
+
+        <button type="button" class="add-to-cart btn btn-primary" data-name="Auto Pour-Over Coffee Machine"
+          data-price="220" data-toggle="modal" data-target="#exampleModal">
+          Add to cart
+        </button>
+        <!-- End of Add to cart button-->
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+        <img src="img/espresso and coffee machine.png" alt="Espresso" class="img-fluid img-thumbnail" />
+        <p>
+          Espresso Machine <br />
+          $140
+        </p>
+        <!-- Add to cart button-->
+
+        <button type="button" class="add-to-cart btn btn-primary" data-name="Espresso Machine" data-price="140"
+          data-toggle="modal" data-target="#exampleModal">
+          Add to cart
+        </button>
+
+        <!-- End of Add to cart button-->
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+        <img src="img/jura-giga-x8.jpg" alt="JuraGiga" class="img-fluid img-thumbnail" />
+        <p>
+          Jura Giga X8 Smart Coffee Machine <br />
+          $320
+        </p>
+        <!-- Add to cart button-->
+
+        <button type="button" class="add-to-cart btn btn-primary" data-name="Jura Giga X8 Smart Coffee Machine"
+          data-price="320" data-toggle="modal" data-target="#exampleModal">
+          Add to cart
+        </button>
+        <!-- End of Add to cart button-->
+      </div>
+    </div>
+    <div>
+      <a href="#" class="text-danger">More high-end equipment for the perfect cuppa...></a>
+    </div>
+  </div>
+  <hr width="400px" />
+  <!-- Accessories Section -->
+  <div class="container-fluid">
+    <div class="row align-items-center text-center my-5">
+      <div class="col">
+        <h2>Accessorise As You See Fit</h2>
+      </div>
+    </div>
+  </div>
+  <hr width="400px" />
+  <div class="container Beans">
+    <div class="row align-items-center text-center">
+      <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+        <img src="img/pouring-hot-coffee.jpg" alt="Designer Acc" class="img-fluid img-thumbnail" />
+        <p>Designer Accessory Collections</p>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+        <img src="img/Vintage Coffee Grinder.jpg" alt="Grinder" class="img-fluid img-thumbnail" />
+        <p>Artisanal Tools</p>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-4 mb-3">
+        <img src="img/Gooseneck Kettle.jpg" alt="Kettle" class="img-fluid img-thumbnail" />
+        <p>Custom Kettles & Earthenware</p>
+      </div>
+    </div>
+    <div>
+      <a href="#" class="text-danger">More stuff to dazzle your guests with at your next coffee meet...></a>
+    </div>
+  </div>
+  <hr width="400px" />
+  <!-- Footer -->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <p>
+          1981 Khaleesi Drive, Hill Valley, Westeros <br /><a href="info@habarijava.com?Subject=HabariJava%20Queries"
+            target="_top">info@habarijava.com</a>
+          <br />+ 01 234 567 00 <br />+ 01 234 567 01
+        </p>
+        <div class="socialicon">
+          <a href="#"><i class="fa fa-facebook-square"></i></a>
+          <a href="#"><i class="fa fa-twitter-square"></i></a>
+          <a href="#"><i class="fa fa-google-plus-square"></i></a>
+          <a href="#"><i class="fa fa-linkedin-square"></i></a>
+          </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center">
+      © 2021 Copyright: HabariJava.com
+    </div>
+  </footer>
+
+  <!-- Cart Display Modal -->
+  <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cart Contents</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <ul id="show-cart">
+            <li>(Content Loading...)</li>
+          </ul>
+          <div><b>You have <span class="count-cart">0</span> items in your cart</b></div>
+          <div>Total Cart: <b>$<span id="total-cart"></b></span></div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="clear-cart btn btn-danger">Clear Cart</button>
+          <a href="checkout.html"><button class="btn btn-success">Checkout</button></a>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Optional JavaScript -->
+  <script src="RoughWork.js"></script>
+
+  <!-- JQuery code -->
+  <script>
+    // *****************************************
+    // Triggers / Events
+    // *****************************************
+
+    // Add item
+    $(".add-to-cart").click(function (event) {
+      event.preventDefault();
+      let name = $(this).attr("data-name");
+      let price = Number($(this).attr("data-price"));
+
+      shoppingCart.addItemToCart(name, price, 1);
+      displayCart();
+    });
+
+    // Clear items
+    $(".clear-cart").click(function (event) {
+      shoppingCart.clearCart();
+      displayCart();
+    });
+
+    //Displays the cart
+    function displayCart() {
+      let cartArray = shoppingCart.listCart();
+      console.log(cartArray);
+      let output = "";
+
+      for (let i in cartArray) {
+        output +=
+          "<li>" +
+          cartArray[i].name +
+          "<br>" +
+          " <input class='item-count' type='number' data-name='" +
+          "<br>" +
+          "<br>" +
+          cartArray[i].name +
+          "' value='" + cartArray[i].count + "' >" +
+          " x " + cartArray[i].price +
+          " = " + cartArray[i].total +
+          " <button class='plus-item' data-name='" +
+          cartArray[i].name + "'>+</button>" +
+          " <button class='subtract-item' data-name='" +
+          cartArray[i].name + "'>-</button>" +
+          " <button class='delete-item' data-name='" +
+          cartArray[i].name + "'>X</button>" +
+          "<hr>" +
+          "</li>";
+      }
+
+      $("#show-cart").html(output);
+      $(".count-cart").html(shoppingCart.countCart());
+      $("#total-cart").html(shoppingCart.totalCart());
+    }
+
+    // Delete item button
+    $("#show-cart").on("click", ".delete-item", function (event) {
+      var name = $(this).attr("data-name");
+      shoppingCart.removeItemFromCartAll(name);
+      displayCart();
+    });
+
+    // -1
+    $("#show-cart").on("click", ".subtract-item", function (event) {
+      var name = $(this).attr("data-name");
+      shoppingCart.removeItemFromCart(name);
+      displayCart();
+    });
+
+    // +1
+    $("#show-cart").on("click", ".plus-item", function (event) {
+      var name = $(this).attr("data-name");
+      shoppingCart.addItemToCart(name, 0, 1);
+      displayCart();
+    });
+
+    // Item count input (for input fields)
+    $("#show-cart").on("change", ".item-count", function (event) {
+      var name = $(this).attr("data-name");
+      var count = Number($(this).val());
+      shoppingCart.setCountForItem(name, count);
+      displayCart();
+    });
+
+
+
+
+    displayCart();
+  </script>
+  <!-- Bootstrap stuff: jQuery in the head, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
