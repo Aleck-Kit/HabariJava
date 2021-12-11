@@ -8,7 +8,7 @@ An online store dealing exclusively in African Coffee. I'm particularly proud of
 </tr>
 </table>
 
-
+ 
 ## Site
 Have a look at the site here :  https://habarijava-african-coffee-hub-ecommerce.netlify.app/
 
