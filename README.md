@@ -19,7 +19,7 @@ The site is compatible with devices of all sizes and all OS's, and consistent im
 
 ## Built with 
 
-- [HTML](https://www.w3schools.com/html/default.asp) - HTML (Hypertext Markup Language) is a language for publishing text-based and multimedia information on the World Wide Web.
+- [HTML](https://www.w3schools.com/html/default.asp) - HTML is a language for publishing text-based and multimedia information on the World Wide Web.
 - [CSS](https://www.w3schools.com/Css/) - CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript) - JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language
 - [Bootstrap](http://getbootstrap.com/) - Extensive list of components and  Bundled Javascript plugins.
