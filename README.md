@@ -28,7 +28,5 @@ The site is compatible with devices of all sizes and all OS's, and consistent im
 
 ## License
 
-## [License](https://github.com/iharsh234/WebApp/blob/master/LICENSE.md)
-
-MIT © [Harsh Vijay ](https://github.com/iharsh234)
+MIT © [Aleck Kitenge](https://github.com/Aleck-Kit)
 
