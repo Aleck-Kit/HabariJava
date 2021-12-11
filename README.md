@@ -3,7 +3,7 @@
 <table>
 <tr>
 <td>
-  A webapp using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the  charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
+An online store dealing exclusively in African Coffee. I'm particularly proud of this project as it was my very first attempt at building anything once I'd learned enough HTML, CSS and JavaScript to do so. The JS was particualry challenging, as I'd not yet learned any frameworks that would have simplified quite a number of tasks; but I understood the importance of getting to grips with the fundamentals first. 
 </td>
 </tr>
 </table>
