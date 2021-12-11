@@ -1,4 +1,4 @@
-# ![HabariJava](https://github.com/Aleck-Kit/HabariJava/habarijava.png)
+# ![](https://github.com/Aleck-Kit/HabariJava/habarijava.png)
 # HabariJava
 <table>
 <tr>
